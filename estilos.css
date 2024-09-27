@@ -1,0 +1,360 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    
+    background-image: url(../imagenes/imagen_de_fondo1.jpg);
+    background-size: 100% auto; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.imagen-logo{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* ---------------------parte de presentaion-----------*/
+.seccion1{
+    display: grid;
+    width: 100%;
+    height: 600px;
+    font-size: 120%;
+
+    color: white;
+    /* background-image: url(../imagenes/principal.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: saturation; */
+    /* grid-template-columns: auto auto;
+    text-align: center; */
+}
+
+.titulo1{
+    margin-top: 100px;
+   
+}
+.parrafo1{
+    margin: 10%;
+}
+
+/*----------------- SECCION 2 DE QUIENES SOMOS -----------*/
+.seccion2{
+    padding-top: 3%;
+    display: grid;
+    font-size: 20px;
+    margin-top: 80px;
+    color: white;
+    /* grid-template-columns: 1fr 1fr; */
+    /* justify-items: center; */
+}
+.tituloseccion2{
+    font-size: 33px;
+    padding: 10px 100px;
+    border-left: 30px;
+}
+.parrafoseccion2{
+    /* padding: 0px 350px; */
+    padding-left: 45%;
+    padding-right: 20%;
+    text-align: justify;
+    font-size: 115%;
+    padding-bottom: 100px;
+
+    background-image: url(../fondos/tablafondo.png);
+    background-repeat: no-repeat;
+    background-position: 200px;
+    background-size: 85%;
+    justify-content: center;
+}
+.parrafo{
+    padding-top: 150px;
+}
+
+
+
+
+/*-------------------parte para hacer que el titulo de BIENVENUE se mueva-------------*/
+.tituloseccion2 img {
+    animation: mover 5s infinite; /* Nombre de la animación, duración y repetición infinita */
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0); /* Punto inicial */
+    }
+    50% {
+        transform: translateX(100px); /* Mover a la derecha */
+    }
+    100% {
+        transform: translateX(0); /* Regresar al punto inicial */
+    }
+}
+
+
+
+
+/*----------------- SECCION 3 DE MENU -----------*/
+.imagenmenu img{
+    padding-top: 4%;
+    
+    height: 90%;
+}
+
+.seccion3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/* ------------------------------ postres -----------------*/
+.postres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+
+    
+    background-image: url(../fondos/FONDO-postre.png);
+    background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
+    background-position: center;
+    height: 100vh;
+    width: 95%;
+    position: relative;
+}
+.postre{
+    width: 400px;
+    padding-top: 130px;
+    background: (0,0,0,0.5);
+    text-align: center;
+    font-size: 20px;
+    
+}
+.postre img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+
+/* ------------------------------ Platos fuertes-----------------*/
+.platos-fuertes{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    background-image: url(../fondos/fondo-fuerte.png);
+    background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
+    background-position: center;
+    height: 100vh;
+    width: 95%;
+}
+
+.plato-fuerte{
+    width: 400px;
+    padding-top: 130px;
+    background: (0,0,0,0.5);
+    text-align: center;
+    font-size: 20px;
+}
+.plato-fuerte img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+/* ------------------------------ Bebidas -----------------------*/
+
+.bebidas{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    background-image: url(../fondos/fondo-bebidas.png);
+    background-size: 100% 100%; /* Ajusta el ancho al 100% y la altura se ajusta proporcionalmente */
+    background-position: center;
+    height: 100vh;
+    width: 95%;
+}
+
+.bebida{
+    width: 400px;
+    padding-top: 130px;
+    background: (0,0,0,0.5);
+    text-align: center;
+    font-size: 20px;
+}
+.bebida img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+/*----------------- SECCION 4 DE CHEF -----------*/
+/*----------------- SECCION 4 DE CHEF -----------*/
+.seccion4{
+    padding-top: 3%;
+    display:grid;
+    width: 100%;
+    height: 600px;
+    font-size: 160%;
+    padding-bottom: 100px;
+
+    /* background-image: url(../imagenes/postre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation; */
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.descripcion.de.chef{
+    color: rgba(14, 3, 3, 0.842);
+    
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 15%;
+    border-radius: 20px;
+    max-width: 600px;
+    text-align: justify;
+
+    background-image: url(../secciones/perg.png);
+    background-repeat: no-repeat;
+    background-position: 4%;
+    background-size: 95%;
+    justify-content: center;
+}
+
+.foto.de.chef img{
+    width: 120%;
+    box-shadow: none;
+}
+
+.descripcion.de.chef img{
+    width: 80%;
+    animation: mover 5s infinite;
+}
+
+/*----------------- SECCION 5 DE contacto -----------*/
+
+
+
+.imagen-contacto-logo{
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.imagen-contacto-logo img{
+    width: 15%; /* Hace que la imagen sea el 20% de su tamaño original */
+    height: auto;
+    text-align: center;
+}
+
+.seccion5{
+    color: #fff;
+    display:grid;
+    width:100%;
+    height: 10px;
+    font-size: 100%;
+    background-color: rgba(0,0,0,0.5);
+    
+
+    /* background-image: url(../imagenes/postre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation; */
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------- parte de menu de opciones -----------*/
+
+nav {
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(83, 83, 101, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinea los elementos del menú horizontalmente */
+    justify-content: center; /* Centra el menú horizontalmente */
+}
+
+nav ul li {
+    margin: 0 20px; /* Ajusta el margen entre los elementos del menú */
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 20px; /* Menor padding para que el área clicable sea más ajustada */
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Esto hace que el área clicable abarque solo el texto y padding */
+}
+
+nav ul li a:hover {
+    background: rgba(167, 170, 172, 0.559);
+    border-radius: 5px; /* Redondea los bordes para un mejor diseño */
+}
+
+.wrapper {
+    width: 80%;
+    margin-top: 50px; /* Aumenta el margen superior para compensar el menú fijo */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+/*-------------------------
